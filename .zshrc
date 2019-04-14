@@ -1,5 +1,6 @@
 ##### ALIAS
 alias emacs="emacs -nw"
+alias spotify="spotify &|"
 
 #### EXPORTS
 export ZSH=/home/chris/.oh-my-zsh
