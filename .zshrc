@@ -1,12 +1,15 @@
 ##### ALIAS
 alias emacs="emacs -nw"
 alias spotify="spotify &|"
+alias chrome="google-chrome &|"
+alias dcb="docker-compose build"
+alias dcu="docker-compose up"
 
 #### EXPORTS
 export ZSH=/home/chris/.oh-my-zsh
 export TERM=xterm-256color
 export N_PREFIX="/usr/local/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:~/.cargo/bin
 export GOPATH=~/sources/go
 export EDITOR=emacs
 
